@@ -32,4 +32,7 @@ public class Consumer implements RocketMQListener<String> {
 
     private String name;
 
+
+    private String age;
+
 }
