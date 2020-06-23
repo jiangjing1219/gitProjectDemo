@@ -29,4 +29,7 @@ public class Consumer implements RocketMQListener<String> {
         log.info("接收到的消息是："+s);
     }
 
+
+    private String name;
+
 }
